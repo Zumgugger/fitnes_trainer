@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  repetitions: 1
+  weight: 1.5
+  date: 2014-11-16 22:48:53
+
+two:
+  repetitions: 1
+  weight: 1.5
+  date: 2014-11-16 22:48:53
