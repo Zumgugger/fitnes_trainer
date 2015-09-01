@@ -1,10 +1,11 @@
 # == Schema Information
 #
-# Table name: exercises
+# Table name: exercise_sets
 #
 #  id          :integer          not null, primary key
-#  name        :string(255)
-#  description :text
+#  set_number  :integer
+#  repetitions :integer
+#  weight      :float
 #  created_at  :datetime
 #  updated_at  :datetime
 #
@@ -12,9 +13,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
+  set_number: 1
+  repetitions: 1
+  weight: 1.5
 
 two:
-  name: MyString
-  description: MyText
+  set_number: 1
+  repetitions: 1
+  weight: 1.5

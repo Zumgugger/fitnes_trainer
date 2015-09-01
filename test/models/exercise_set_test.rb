@@ -1,19 +1,18 @@
 # == Schema Information
 #
-# Table name: realised_trainings
+# Table name: exercise_sets
 #
 #  id          :integer          not null, primary key
-#  name        :string(255)
-#  date        :datetime
-#  duration    :float
-#  description :text
+#  set_number  :integer
+#  repetitions :integer
+#  weight      :float
 #  created_at  :datetime
 #  updated_at  :datetime
 #
 
 require 'test_helper'
 
-class RealisedTrainingTest < ActiveSupport::TestCase
+class ExerciseSetTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
