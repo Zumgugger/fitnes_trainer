@@ -23,7 +23,7 @@ class RealisedTrainingController < ApplicationController
 
     respond_to do |format|
       if @realised_training.save
-        format.html { redirect_to realised_trainings_path, notice: 'realised_training was successfully created.' }
+        format.html { redirect_to realised_training_index_path, notice: 'realised_training was successfully created.' }
         format.json { render action: 'index', status: :created, location: @realised_training }
       else
         format.html { render action: 'index' }
@@ -49,7 +49,7 @@ class RealisedTrainingController < ApplicationController
   def destroy
     @realised_training.destroy
     respond_to do |format|
-      format.html { redirect_to realised_trainings_url }
+      format.html { redirect_to realised_training_index_path }
       format.json { head :no_content }
     end #do
   end #destroy

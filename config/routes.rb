@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-resources :realised_training
-resources :trainings
 
-get 'realised_trainings' => 'realised_training#index' 
+resources :realised_training
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

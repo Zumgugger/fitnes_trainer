@@ -1865,3 +1865,1371 @@ Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:08 +0200
+
+
+Started GET "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:27:57 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:27:58 +0200
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:28:00 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:29:54 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:30:10 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:31:15 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.0ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:31:22 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:34:06 +0200
+
+ActionController::RoutingError (uninitialized constant RealisedTrainingsController):
+  activesupport (4.1.6) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.6) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.6) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.6) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.6) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.7ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:34:19 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.9ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:34:35 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.0ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:35:12 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started POST "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:39:07 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:39:10 +0200
+
+ActionController::RoutingError (No route matches [GET] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.5ms)
+
+
+Started GET "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:40:10 +0200
+
+ActionController::RoutingError (No route matches [GET] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.8ms)
+
+
+Started GET "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:40:12 +0200
+
+ActionController::RoutingError (No route matches [GET] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.0ms)
+
+
+Started GET "/realised_trainings" for 127.0.0.1 at 2015-09-04 21:40:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/realised_trainings"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.5ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 102ms (Views: 96.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:40:33 +0200
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:40:36 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2015-09-04 19:40:36.102882"], ["updated_at", "2015-09-04 19:40:36.102882"]]
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 14ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"realised_training"} missing required keys: [:id]):
+  app/controllers/realised_training_controller.rb:26:in `block (2 levels) in create'
+  app/controllers/realised_training_controller.rb:24:in `create'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-09-04 19:42:44.753593"], ["updated_at", "2015-09-04 19:42:44.753593"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 22ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:45 +0200
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-09-04 19:42:52.285864"], ["updated_at", "2015-09-04 19:42:52.285864"]]
+  [1m[35m (36.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 40ms (ActiveRecord: 37.3ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:42:52 +0200
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:44:42 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.5ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "destroy":String):
+    35: 				<%= realised_training.description%>				
+    36: 			</td>
+    37: 			<td>
+    38: 				<% link_to realised_training_path(realised_training.id), 'x', method = 'destroy'  %>		
+    39: 			</td>
+    40: 			
+    41: 		</tr>
+  app/views/realised_training/index.html.erb:38:in `block in _app_views_realised_training_index_html_erb___2704565795004128911_70311904147080'
+  app/views/realised_training/index.html.erb:14:in `_app_views_realised_training_index_html_erb___2704565795004128911_70311904147080'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 89ms (Views: 87.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:50 +0200
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-09-04 19:46:55.601033"], ["updated_at", "2015-09-04 19:46:55.601033"]]
+  [1m[35m (14.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 18ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 84ms (Views: 82.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:46:55 +0200
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.4ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:27 +0200
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:47:35 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.8ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:47:36 +0200
+
+
+Started POST "/realised_training/5" for 127.0.0.1 at 2015-09-04 21:47:38 +0200
+
+ActionController::RoutingError (No route matches [POST] "/realised_training/5"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/benutzer/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/realised_training/" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.4ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 90ms (Views: 88.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:07 +0200
+
+
+Started DELETE "/realised_training/5" for 127.0.0.1 at 2015-09-04 21:48:09 +0200
+Processing by RealisedTrainingController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4=", "id"=>"5"}
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "realised_trainings" WHERE "realised_trainings"."id" = $1[0m  [["id", 5]]
+  [1m[35m (16.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training/5
+Completed 302 Found in 20ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/realised_training/5" for 127.0.0.1 at 2015-09-04 21:48:09 +0200
+Processing by RealisedTrainingController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRealisedTraining Load (0.3ms)[0m  [1mSELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1[0m  [["id", 5]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find RealisedTraining with 'id'=5):
+  app/controllers/realised_training_controller.rb:60:in `set_realised_training'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/realised_training/" for 127.0.0.1 at 2015-09-04 21:48:35 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.4ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 89ms (Views: 87.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:48:36 +0200
+
+
+Started DELETE "/realised_training/1" for 127.0.0.1 at 2015-09-04 21:48:37 +0200
+Processing by RealisedTrainingController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4=", "id"=>"1"}
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "realised_trainings" WHERE "realised_trainings"."id" = $1[0m  [["id", 1]]
+  [1m[35m (11.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training/1
+Completed 302 Found in 15ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/realised_training/1" for 127.0.0.1 at 2015-09-04 21:48:38 +0200
+Processing by RealisedTrainingController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRealisedTraining Load (0.3ms)[0m  [1mSELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find RealisedTraining with 'id'=1):
+  app/controllers/realised_training_controller.rb:60:in `set_realised_training'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+  [1m[36mRealisedTraining Load (0.6ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"[0m
+
+
+Started GET "/realised_training/1" for 127.0.0.1 at 2015-09-04 21:50:33 +0200
+Processing by RealisedTrainingController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRealisedTraining Load (0.1ms)[0m  SELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find RealisedTraining with 'id'=1):
+  app/controllers/realised_training_controller.rb:60:in `set_realised_training'
+
+
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/benutzer/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:37 +0200
+
+
+Started DELETE "/realised_training/4" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+Processing by RealisedTrainingController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4=", "id"=>"4"}
+  [1m[35mRealisedTraining Load (0.2ms)[0m  SELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "realised_trainings" WHERE "realised_trainings"."id" = $1  [["id", 4]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 13ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.5ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:39 +0200
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2015-09-04 19:50:41.736086"], ["updated_at", "2015-09-04 19:50:41.736086"]]
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 9ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.4ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:41 +0200
+
+
+Started POST "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+Processing by RealisedTrainingController#create as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4="}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "realised_trainings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2015-09-04 19:50:43.135336"], ["updated_at", "2015-09-04 19:50:43.135336"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 19ms (ActiveRecord: 16.1ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[35mRealisedTraining Load (0.4ms)[0m  SELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC
+  Rendered realised_training/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:43 +0200
+
+
+Started DELETE "/realised_training/3" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+Processing by RealisedTrainingController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gQt0YTrJGS8K18XLvxmQTKU2zdb3s1YoMpD7RhhW0H4=", "id"=>"3"}
+  [1m[36mRealisedTraining Load (0.2ms)[0m  [1mSELECT  "realised_trainings".* FROM "realised_trainings"  WHERE "realised_trainings"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "realised_trainings" WHERE "realised_trainings"."id" = $1[0m  [["id", 3]]
+  [1m[35m (7.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/realised_training
+Completed 302 Found in 11ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/realised_training" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+Processing by RealisedTrainingController#index as HTML
+  [1m[36mRealisedTraining Load (0.4ms)[0m  [1mSELECT "realised_trainings".* FROM "realised_trainings"   ORDER BY "realised_trainings"."name" ASC[0m
+  Rendered realised_training/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/realised_training.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/jquery.autosize.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/best_in_place.jquery-ui.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/jquery.tablesorter.min.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/realised_training.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-04 21:50:44 +0200

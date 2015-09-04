@@ -34,6 +34,9 @@
 			<td>
 				<%= realised_training.description%>				
 			</td>
+			<td>
+				<%= link_to "delete", realised_training_path(realised_training.id), :method => 'delete'  %>		
+			</td>
 			
 		</tr>
 		<%end%>
