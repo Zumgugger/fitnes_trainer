@@ -1,0 +1,2 @@
+module RealisedTrainingsHelper
+end

@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-resources :realised_training
+
+resources :realised_trainings
+resources :trainings
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
