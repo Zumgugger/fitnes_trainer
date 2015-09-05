@@ -13,4 +13,8 @@
 
 class RealisedTraining < ActiveRecord::Base
   has_many :exercise_sets
+  
+  def exercise_date
+    date.strftime("%d.%m.%Y")
+  end
 end

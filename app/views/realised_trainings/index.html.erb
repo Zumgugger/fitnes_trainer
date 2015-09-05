@@ -23,7 +23,9 @@
      		</td>
      		<td>
 				<%= link_to realised_training_path(realised_training.id) do  %>
-     			<%= realised_training.date %>
+     			<%if realised_training.date%>
+     			<%= realised_training.date.strftime("%d.%m.%Y")%>
+     			<%end%>
      			<%end%>
      		</td>
      		<td>

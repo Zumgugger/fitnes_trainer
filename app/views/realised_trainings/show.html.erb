@@ -1,24 +1,11 @@
 <div class="maindiv">
-	<h1>SchauspielerIn 
-		<%=best_in_place_if signed_in?, @actor, :name%> <%= best_in_place_if signed_in?, @actor, :last_name%>
+	<h1><%= best_in_place @realised_training, :category, :as => :input %> vom 
+		<%= best_in_place @realised_training, :date, :as => :date, :display_as => :exercise_date%>
 	</h1>
-	<p>Klase <%= best_in_place_if signed_in?, @actor, :schoolclass%></p>
-	<%if signed_in? %>
-		<h2>
-			Bemerkungen
-		</h2>
-		<%= best_in_place_if signed_in?, @actor, :description, :type => :textarea%>
-	<%end%>
+	
+	
 	
 		
 </div>
 
-<div class="maindiv">
-	<p>	
-		<% @actor.allocations.each do |a| %>
-			<% role =  a.role%>
-			<%= link_to role.name, role_path(role.id)%>
-			in der Besetzung <%= a.cast.name %> <br />
-		<%end%>
-	</p>
-</div>
+<%= link_to "Alle trainings", realised_trainings_path%>

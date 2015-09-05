@@ -11,6 +11,7 @@ class RealisedTrainingsController < ApplicationController
 
 
   def show
+ 
     
   end #show
   
@@ -64,7 +65,7 @@ private
     end #set_realised_training
     
     def realised_training_params
-      params.require(:realised_training).permit(:name, :date, :duration, :description)
+      params.require(:realised_training).permit(:category, :date, :duration, :description)
     end #realised_training_params
     
 end #class
